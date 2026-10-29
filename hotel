@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Spoon | Restaurant & Cafe</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">🍴 Golden Spoon</h1>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#chefs">Our Chefs</a></li>
+                <li><a href="#ambience">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#reservation" class="nav-btn">Book a Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">WELCOME TO GOLDEN SPOON</p>
+            <h2>Good Food.<br>Great Moments.</h2>
+            <p>
+                Experience delicious food, warm hospitality,
+                and unforgettable moments with us.
+            </p>
+
+            <a href="#menu" class="btn">Explore Our Menu</a>
+            <a href="#reservation" class="btn btn-outline">Reserve a Table</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80"
+                alt="Elegant restaurant dining table">
+        </div>
+
+        <div class="about-content">
+            <p class="subtitle">OUR STORY</p>
+            <h2>A Place Where Food Meets Love</h2>
+
+            <p>
+                At Golden Spoon, we believe that great food brings
+                people together. Our chefs prepare every dish with
+                fresh ingredients, creativity, and passion.
+            </p>
+
+            <p>
+                Whether you are enjoying a family dinner, meeting
+                friends, or celebrating a special occasion, we make
+                every visit memorable.
+            </p>
+
+            <a href="#reservation" class="btn">Visit Us</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="section-heading">
+            <p class="subtitle">TASTE THE DIFFERENCE</p>
+            <h2>Our Special Menu</h2>
+            <p>Fresh ingredients, wonderful flavours, and beautiful food.</p>
+        </div>
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80"
+                    alt="Italian pasta">
+
+                <div class="menu-info">
+                    <h3>Italian Pasta</h3>
+                    <p>Creamy pasta with herbs, cheese, and fresh vegetables.</p>
+                    <span>₹249</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                    alt="Cheese burger">
+
+                <div class="menu-info">
+                    <h3>Classic Burger</h3>
+                    <p>Juicy burger served with fresh vegetables and cheese.</p>
+                    <span>₹199</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=600&q=80"
+                    alt="Delicious pizza">
+
+                <div class="menu-info">
+                    <h3>Cheese Pizza</h3>
+                    <p>Oven-baked pizza topped with cheese and fresh herbs.</p>
+                    <span>₹299</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"
+                    alt="Cup of coffee">
+
+                <div class="menu-info">
+                    <h3>Cappuccino</h3>
+                    <p>Rich espresso blended with smooth, steamed milk.</p>
+                    <span>₹129</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+                    alt="Fresh strawberry cake">
+
+                <div class="menu-info">
+                    <h3>Strawberry Cake</h3>
+                    <p>Soft cake topped with cream and fresh strawberries.</p>
+                    <span>₹179</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+                    alt="Fresh vegetable salad">
+
+                <div class="menu-info">
+                    <h3>Garden Salad</h3>
+                    <p>A refreshing mix of greens, vegetables, and dressing.</p>
+                    <span>₹159</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Chefs Section -->
+    <section class="chefs-section" id="chefs">
+        <div class="section-heading">
+            <p class="subtitle">MEET OUR TEAM</p>
+            <h2>Our Master Chefs</h2>
+            <p>Passionate people creating unforgettable flavours.</p>
+        </div>
+
+        <div class="chef-container">
+
+            <div class="chef-card">
+                <img
+                    src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=600&q=80"
+                    alt="Head chef">
+
+                <h3>Chef Jason</h3>
+                <p>Head Chef</p>
+                <p>Specialist in international cuisine and creative dishes.</p>
+            </div>
+
+            <div class="chef-card">
+                <img
+                    src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=600&q=80"
+                    alt="Pastry chef">
+
+                <h3>Chef Kim</h3>
+                <p>Pastry Chef</p>
+                <p>Creates delicious cakes, desserts, and sweet treats.</p>
+            </div>
+
+            <div class="chef-card">
+                <img
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExIWEhUXFxgZGBgXFRUXGBsVGRUWGBcVFR4YHSggGBonGxcXITEhJSkrLi4uFx8zODMuNygtLisBCgoKDg0OGhAQGy8lHyYtLy0tLy0tMS4rKy0wLS0rLS0rLS0vNy0tLS0tLS0tLSstLS0tLS0tLS0tKy0vLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcCAQj/xABFEAABBAAEAwUEBgcGBQUAAAABAAIDEQQSITEFQVEGEyJhcTKBkbEHFCNCocEzUmJy0eHwFSRTgqLCFjSSs/FDc4Ojsv/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACwRAAICAQMBBgYDAQAAAAAAAAABAhEDEiExQQQTIlGBwWGRobHR8DJCcRT/2gAMAwEAAhEDEQA/AO4oiIAiIgCIiAIiIAiIgC8yPDQSTQG5XmeZrGlzjQHNVji3FO98LTTeX8VDdEpFl+tM08W+269d+3qq7G/MIsxyinA/5RfypesBjmyOIBy1rXM1vqosUWLOOq+2qV2g4nkBF252g1+LvIBSnZSVwYWuvexfQgapq3FFhtfUWKSShe6sQZUXlj7FhekAREQBERAEREAREQBERAEREAREQBERAEREAREQEPxbFNvu5GaHayNfMbfNQL+Ga213hN6dDyBB5efn5Kb47hTI9mnhaDr5k6j8AvDWBoof18VVkmlhpG2IS0vDiNtSHda5Cr1tRfE+GGOUOidlI1019Pz0VrwcIYwyEDMb1oXXIfmoR5LnEnmVDRKZBYzh8krszqJqtBQrluT1Vm7P8NmDNZTtTQRmoeSxNYrHhG0AiQbNF2CxA/8AVDvUV8lie6TJle02QLI2HPTX3KbXxwtWoqRWExJaKo+9bkU5Js6DkFo+JpIq681sRPQEgi+N2X1SAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiID45oO6gGkg93Wo9wCsC08VhfG148g706qGD7jG0yugVfib4ivHaPtE7uXvgALQ4tD3CwS32iwA6gHSzzB0686w3GsQ95z4h+/3XZPwZSxyZoxZviwSnwdVih1Cl8Oud4LEvy330h/8AlkP+5b+G4nN/iP8A+on5qi7THyNH2SXmi+Iqi3jc7NS4O8nNH+2ipThvaSKRzY3nupHXlaTo8gWQw8zWuXfQ1YBK1jmjJ0ZTwTirNrFsGfejovrWrPNEHHVeooaWhie4tl7RFICIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCpP0qdpThsHKyJ9TuYaynxNafDn0210+PRXYrnfb7srCyJ87dC41KSdDmBa0u66uIs2fGNaAArJtLYtBJvcjuKSZOCQZXZD3DTmdqQcgLib3Nk6+a4ljDPBIWlzw+9iDfO/kfgei7N9KeCcIMMyMeENAy7Cso38lzDimGldI6UxNjJN03YH9m9tdfeuWc0pUztw43KNokOx/aeYvEZOYuoD+a3+1XHsVBIWNeIz5CyozsFwwd+6Q/cDQP/ce8Af6RJ8FdO0HBjP7JAeHZhY5/PZc8qUrR1wi3GnyVbgnEMVJle/GEWdAKOl5dRe1giyKvRSvb+d4w0L7yubK05m6U4A05vQ3S2OE9mslNfG0AOLvCTRcRVnQE6WKutVt9t8FmwTmga5o69c4TVckyrhUWjqPY/ihxWEgncWl72DPlOmcaO9NQVNqj/RdwKTDYWLvC9sjmlz25raQbyAgigQCNqN2CSNBeF6UeDyZpKToIiKxUIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiALR41gxNC6NwsGr9A4E150NPOlvIoatUSnTs5325ePqIohz42Nv3CifwK41xLi5cMo967D9JEWSSN1fZk5JANB3UgyuPuux5hcKxuFMcj2ZQ6iedc1x5YJytnf2bI4wpFh4B2nhZH3BjETg9sglzEhz2hwLH9AQ51Ec6HO1duG8XM73hrQ2tQ4uaQfQA3X9eS59wHhIlvM2NoIq35+Zo0RpYVqh4XJEGiMRvFZWgOkbYsi7c03preqxnTOqOpfrLNgeLtsxvbleOX5jqPNbc0LZixn7bXafsmwD/AJqVUZhZWh5fWdri1hB2Dq5nca37lYOymLa3HQYd7bzsc7MXV4m6iv1ry7e9RCLk6KZciirOqtbS9Ii9Q8gIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAtXieNEMbpCxz6rwsy5jZA0zEDnzK2SVE8XxrKMZIpzCPK7oA1t6qHwSuSD4tim4yIkwvi+7UmSzpd+BxHXmuE9qYXNm0FVp025q28c7SYvCTSRkh0cmrCW6eG9tdHC6O96eSqmP7QMmsTRlp/WZqL60aI/FcurVzydehw3XBiwUMrj4ZWs0s6WrzwhhijzPmErtK0Dd/iVz2KbL+jka4HbXKfg6lLwcSlADRqfK/wPJZPGb986pF2wkpleGUHa/j/wCPmut4DhscTWAMbmaKzZRm1rNruLr8AuP9joHNJmcdRdH9qt9d/wCS7Th5MzGuqrANdLF0t8Fb0cvaNW1mRERdJzBERAEREAREQBERAEREAREQBERAEREARYcXiWxtLnbDpqfctH+0S4ZmEFp5joosG7iMWxg8TgPKxagsV2idnpgDWjckWTysdOWnnyW5kuioni+EA1qlDbJRnxOIkebzGgNgSN+ah8Ywjz8z+aksARIKunt2PksskHJ4rz5KtE2U7i3C2YhhjkbmB1876tPIrmXGOzUkD6PjYT4Xee+V3R1X616gdzxXCCBbdun8Dy/rZRnEsCHRuzCiWmwdLoaEHY9DW6znC0b4cul0+DkvDeCtO+h/8K5cI4HEACRf9c1uf8ITD2S0kdD/ABpb0PCpox4xlrq5oH4lcTjk6pnfrxvhoz4TDd7KzDs5kOkr7sQNn41Q9V0aUUL2VB+inh07TiZ8Q1zXPkpodWjQPukaEHw6g14fJX6c7BduCGmBwdplc68j5HKeeoWVkgKxv0CwNjWxzm8i1GyO6rOJOqmyDIiIpAREQBERAEREAREQBERAFqYrHNY5rN3P26ab2fT5LacaVX4tK3ENkDfbabAO+ihslG9xKRxJ0Dsu/XnsOQo/z0UJ2ekyTSxg21wzN9xo/MfBMLxsgskkb4HUxzwdpAKp45XuFr4mosdGR7L9R6OBsfEKjfUlItERpep4A9pBWs59AleuG4zvLGxCsQQE0LopNPcrLHKHx2RelrT47GPB1s/JZI5e6gc4/daXfAEqOAQX14tdfevjD7LWNEZHdtcWZvG0mzV7jeuS32YLN4XOlcCNryDWr9jLpv8AFbHAMPG/CYaRzGuc2NtEgEg8696kRMFlCM7bk9tq9zbJOK2iqaNCDhkfOIP/AHyZP/2SFvwYZrfZjYz91rR8hovTSFlYVrpMnJsyNFa81hllyhzyCQ0E6Czp0WRewpa2Ko1sDjRMzMGkC+Y39OqzPNUsxGiwSqsFJRSk7ZaTTeyPsTdbWTmvjF9arFT2xeljcdR8VkVgEREAREQBERAEREAXl7gASdgLXpafFCcmUc/l/VICGw/G85kiecpNlhsDQkDL6iz7vRR/E8O8/bxfpY9HtHOuY6qA4lRLqdqDt6KQ7M8ScZMrjqRv1Pms7vYvXU3OGBmIjnaBlMjNRyza+JvTWj6qvy4wubDm0khlo/uk6g+8fNW2TAAS95ERHJzafZd1roVWe2OEdDMyfLTJXBr/ANmTlfruD5H3xLgR5LhijUV+X5LU7OGySvvFpagb5gfJR3AeIiNxaee3r0VupHQneIeKRo5BY+ONP1aRo3Lcvx0WTDHM6194yR3dH9YD8VJCPHZF39yiB3GZp9WyPb+SlDAConsu3LBJH/hzSt/15v8AcpbMRuojwi0/5MxiNe2L62QFfWq5QArNGsKyxIQZCsLjqsrjosLNdVBJkC+sXkrDjZC1hrc6D1KA9Mksl3nQ9B/NbLSteCMAAdBSzMKAyIiKQEREAREQBERAFqY4aj0P5LbULLjQ95o6DQfxUMFa43gWZjYynkQobDRmGZhO1jXyV24phRJGeqqcLSDkPibfPl6LNoumXCUbXq07HmCoPt3MW4UZhYL2g+u7SFP4TxRgHXRR3ajCZ8JI3ctyuHo1wPytWfBC5MPGj/d4z5N+SqofRvzVtxrc2Gb5BVCQclWRKLt2cmzx3zTi01mNn6z79wC0+zUuVhC+RTd7jBWzB+Kt0I6mwyd0f18MaXubIx4aASafDFZoan2SfcpLhM0skYc4Zb5OaQSNNeVa3yWvwl39+xg/Yw5/0PCl4WrNQevVb67dOeTSclWmvLf0NfJR2XsOWRzrXjKtTE+51ns5TWprT15LUI2W4zZAQnDI8SZHPmtrTfhzWOVAAEgAdVNAdV6KLPFiWNUm3ve5ec3N2Filo15ar7I9a8klDXT+C1KGdupWZii24t1jKNFJRFAZmr6vAK9qQEREAREQBEWOd+VrndAT8AgK32h469pLIwK1BJ3J55egVdw3FXMcCRotniUZJAB+Ask+S8T8LLWBzngA86JHvIulm7ZdUT2C4kx/NR/EOG07Ow6E2q9LKIqJNA7Ob4mk+rby+8BTfB+ICTY94ALOUg6V/BLsVRPsa4BoGmiieMcc7qGTvG5icsYA5uleIx7vFZ8gVK4LGNcCL9k8+nJVftVhHyyxwxtLi+Zkh6BkfiJJ5DMWKW6REVb3JR0n2AHkqwG29S/HcX9Wbh4CBJNO4sjYHZRbW25xNEloto0A9rcLVxmBGdjnf3eqf3ecOfYu81a1R22sBc+fMsSto2xY3NmXDY1zcM17IpM7jQY+N8bt9S7OBWmvvCycNe6DM/wOe7fM6gCetC1SuKcVxOJEbopsmHa8F72OOd1Gy2/aF0NAare9l5xEUlMecYyWGQ0A9skU50IpzaczQhosGjZ9DxSy55+KMlH4dTt7jHjXjW3n0vy+BY8R2rdC+fENlgBLRnL2OczKzNlDKkBJqtdQemqi8X9K7ZYQ1hdG4vjPijY24xJ4sgLjmBDXDnzBq1qNwWJjjlZg2w95JQeZJoc5Z95rA8g2QdnUNeqjP7F4jCwMnw2eISZox/d5Ax7hmGQAuLOYIGmm5pawctNuTf0+xGSEZS0xSXx8/V/Qubu05f3jn4h8kGRpsMy04tzFhcwBuxGl81F8T4piSA9plIurkkkbuDTNCAD79a96zwzS921kkXdlzhk8AY3wmyKL2t5XppqoHgHEJIYsTJiKJhyGJoc1wzuLwSNbIABO+oFLGONylu36tieeOKqjFv09jKe22OY1sEUMss5Lm26WRzRVbi85drtm21CtPCOM8UayR2Ja9tBlfoS5pLAJDl0OQPFg0azanSzSsJxeYx95DLlfX2mR5aXNBOxFENo+VXyIW1wSASS52TPcGNzvbHHiG2SSQ6++fbTRG1GjqFfdwaTa9XZWGTFlnqar4Umvb3L/AB9ty1v2jco/WcGge7K43r0/JeZ/pDY2N0hZbGgkkAgaC9CT5H4eaqU/C2zEzG2UaDC6pDRzOdR+6Lqi0LV45TYGsOIZPG4kvjd3bZWurY0Kro4DkN91CnOP93++hPdxcrcUo/L3LRgPpTw05bla4sJIOhzZqsANI19xO4UZi+3pLyDcVGgHN8zlPjFajbRUThvDmveS2bLR8Ld/Qa67abAeehVhwbXF72uw7cRUQc0ZXlpdmPgIY4FziATRu91fJknPZNlors0HFPd8P881XQvXDu1ZaW94BIzKSXsYbGoomtLrcDrY2pWnhPG4ZI2vziMuNZZHMa+7IArMd6sUToQuIvxHEjM3DtwX1Avd4G9xJ3RaSLMsj3OAaAPutvb33DiMWGw+Vz5rfN4GNZE1z3ZDpn8LSGgmtt3bqyydoxbSqXruZyxYMj8Fr7HVCvYKofZWXFMc5r53PYXU1skbWkWAQGnNoAK8OpobWdbPwLGTva/v2MYRIQ3IbtgAAc4WcpJzaWdK2NgdeLPHItjjy4nB0SyIi3MgiIgC1+IPAifZoZSLPnothVXt7xExsjaK8RcTYvRtbefiUN0iUrZHyTNJ08IOgJ9og9ByHz/ASDYWxDQuJ5jMMoPyConCMW6SZz7NRtLutvJDWn1t2b/IVI4vFPJoku1oc7s1oBz22WakXcS1TGOVuVxbfMG3Cug2o+YUSOy2SQSQvym+oB9/Ijz09Fh4czuxnefEdGjevM+akW479pTsyDXnjeHvZlIJILehAPIjyJ+C38HMYRmlaQCaLtyKHPnWq05+LNYCXOFDU381U+LfStDI0xBjpG8n6N2/VvUhVbS3LKLlskT/AGhmeyZmLwrW4p0bXN7vMA4sfWYRn7rra07HauapGN7XMOIEk+EfFI2Oz3v6R7mi8mU0CL2PPXbnrw9s47doW5muaHGjlcap1eSiYeP41nhfKJWa0HgFp0NDld+awm4y5OrFjklZaeHdoc7C2LxscC90bzncHEgkADZu+g016LSxjGTPt+HbRdr3ZLS1pNZgMwBoAW3Une1Af21C0gvwUIcbsxXCd9/s6Ovm5b0HaHD7ZMQz917HD/7M5XNPC78L9jojPbePv+/IseLwc0PgiwrMZGQ7K8k5ww6MFnQObexHnttq8X4Y12Hbme5z2lpexroov+sNDhYFgal11Y6RruNwuaWjGSxE8zEHkeXhyilpcI4dDCXPGPDy4amSMt+P2hTupael/ciOTTJcqv8Adi28BxEQMcJie5jqt1AvabJzPPINpraF3m6BRvbLgTZJZJI6ZA6s0hkETDKHFoa4O1zdHVRvlqTnwmKAH/OQDzDnDSv3TS3X8QLgAZ8LKNPbdJprdio99As448keF+/M076Optu75spODwLcCXHGRZ20KY6XKPE6g4ZLLjofdZV17JcKwkwfNhHT4fM1rXxsmzsIaXEZXPbny2djovr43Yg1L9UlY3VoD5dDW5+z11+a2e+xMbvspMMwNHhGaYAWKykNg1aDrutGsrVVz/hm5YbuKSfr+fY1eOx42Rzo2wmOONoAcJW6t519mPPzGvovLOyXEJYwWzRtGXRueRhc3mCC3Lp12Kx8Tx8s7O7djsJZBEgHeuBHkA1pHxW3wLjmHggbhnYzDvy6NDWu0broAX3eu6pHHkW7X1S9zVZ4xVKvVX7EDh+HxNkGDlbM+U+1NA0ubG4u8IaTv4QL8I8r3V0wPYWFj7Je5hBDs7nFxfyfma4Cj0IKim9pcFBI9wxRa95t2XDvNn3OIC0/+KsIwEtxGOls7NMQFa6ASN8I15G1Pdzf8tvUzlJSeqPPTw/byLZw3hsLHgRPeO6fllDXStAeWte0gOdlLACLFO3A634+vYKCVp72Bzcrrc7WXvLpoaRy9rSuS59ju2mFuxgJZz1mxcte9jSWu+C3+Fdopy0HCwYPBB96sgAk3om3DUjqWqywJLd+5EpTk979XX5OlYfi+YVh8NI8E3myGKPXmXPq/cCpfhcT2BxfWZxzENsgGgNz6Db15qM7AyOdhy6XEPxMxce8L6GU8mta0U1ta3zu/IWOZui7sWJJKR5+WbtxMwX1eIjYC9roMQiIgCoX0p2BCR0kH/bV9UP2k4eyRrJJAXNhJeWAXmAF5fSwCfIFVkrRaLplEZwU4TCMe79JK4OdegYMp7sG9vacT50OSjncRa0COPUn2pDub3ay/Zb+J9NFn4rxsyPLnGyfgB0AUO+VhI8OXXloFi5eRqo+ZLcRxhL8oOjQB/Fa4ncea0pCS8nmSfmvbLFnkASq2TRXPpA4sWtbA0+1q790cvefkVR3SLc4jiHTyGVxq9h0bZoeuvxJSHAE1QJ9yhtG8Y0jSjaSfzW20gGqsc/XqFN4Ls5LIy2gNbe7iB67XamOEdimve1rpHEkgU2hqfW1D3J1pdSpfVwdQfivTMO7Y6ea6p2t4BgcJlhhgGYtFuc5zzvd+InU1+KrbcJF/ht+CiUGtiY5kyoNFOygWetaLd+oPrNVD9Y0B7gprEYSIAkNAPXVbOGw7ZIWNdrp110KrpZbvURWA4UxxzPeXeXL4n+CnsJgYgQcjdOZ1+FrzDhRHp9311/mtgkHY6fBWjHzMZzt7cG4ybpovRxNKPMqM1VjMmIeBwYsHvG5TykbQcD8nDyP4Krdouws8ILgBNGNS9jTYHV7dS33WPNTvBsM7vc5cAGmxQ1OmgvkP5q2DHEbKIx1LdUXc9DWl2jiZFANc4EcnVfx6+q9nB17JzE7Aa36LsuJwGHeW54I3EG9WN33N9duasWBwEc2HcO6jLwCGksbeuoF1pZCdw31Lf8AUl0OB/Uoo9ZnZ3Cvs2HUHenO2FcwLSHGkyZia0AAGjQ0bNA6f1ubU92q4GcxfEwAAUWAAUbPLqqkybXKQWu6EUVlKFG0cmrc6j9HXaIjGdzm8MkZcW8g5haAR0JB160Oi6u56/NnZrEmHFRyDzaT5O092uU+5d+4Dj++jF6uGh/I/gunBLw0cfaY1KyWwj7BHQ/mVsLHDEG+vNZF0HOEREAREQFF472IuR0kLQ4ON5MwbR5gWKr5KuYngr4/bwsvrdj4htLrqLN40y6m0cayAkktLdfvCiPVY8dM1jD96xQA8/PkuzyMDhRAIPIiwuSdqOxmIbM4QMe+NxzNIBdQ/VO+o29FSUKLxkma/Z/hnDG4Vzzh6fEC4kuDnuIF0C700AoWVBwwGQ3lEY8rIr3qycB7DYqVxEwMMYOpdu70G599K7HshhmMy5S7aySb/CgE0uRLmkc4Dmhoa0aDRXPsXwTKO/kFUDlH+5b8HZXDMObKfeSVg7dcaGHg7puj3ihXJtbqyjW7KOV7I5/2r4l3+JkeDpdD0GiiWFYnORj1lyarZUfcQ2wV74e/7JtEaX0v2itXHTeEr3w5/wBk339epUUWvYlcQ+22tJr1sQm2kLTaaKmitmwwrbhK1KorZhIUlWzfw01KSgfZHQaqKYzb1W/eUdFKIZIHE7nyIHqdPkVbexkltf6j81zts+Z9D2W6ep5/15LoPYceB3mf5K8eSkuDJx/sy2UmSPR59obB3n5FUnGdmo5HZJGmN/7Qs7HUXuN/JdZWtjsBHKKe262OxHoVaUEyFJo5BL2Yhijia5jzOcveAEmJtmiW2PFZ0Gp53Wy6zwnhrYWBoJcepq/TRecNwaJlbuo2Mxuj5afhtopFIQUSZ5HLkIiK5QIiIAiIgCIiAIiIAsM+x9B+a+ogI3G+yPd+S5v9Jv8AzX+RvyC+os58F4clMK8IixNjxj/0Y9f4rLw39EPT8yiIOhv4HmtWb2kRSQbR5L1HuiKSCVg2Hqs+P5fvN/3Iikg1uGbLpHYn2D6D5uRFaPJWRZkRFqZhERAEREB8REQH/9k="
+                    alt="Pastry chef">
+
+                <h3>Chef Piear</h3>
+                <p>Pizza Chef</p>
+                <p>Creates delicious pizzas, veg and non-veg, and with different toppings.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Restaurant Ambience -->
+    <section class="ambience-section" id="ambience">
+        <div class="section-heading">
+            <p class="subtitle">OUR RESTAURANT</p>
+            <h2>A Beautiful Dining Experience</h2>
+            <p>Enjoy delicious food in a warm and welcoming atmosphere.</p>
+        </div>
+
+        <div class="gallery">
+            <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+                alt="Restaurant interior">
+
+            <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
+                alt="Fine dining setup">
+
+            <img
+                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80"
+                alt="Restaurant dining area">
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="section-heading">
+            <p class="subtitle">CUSTOMER REVIEWS</p>
+            <h2>What Our Guests Say</h2>
+        </div>
+
+        <div class="testimonial-container">
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "Amazing food and a beautiful atmosphere.
+                    The pasta was delicious, and the service was excellent."
+                </p>
+                <h3>— Ananya</h3>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "A wonderful place to spend time with family.
+                    The staff were friendly and the desserts were fantastic."
+                </p>
+                <h3>— Rohit</h3>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "The perfect cafe for coffee and conversations.
+                    I would definitely love to visit again."
+                </p>
+                <h3>— Sneha</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation-section" id="reservation">
+        <div class="reservation-info">
+            <p class="subtitle">MAKE A RESERVATION</p>
+            <h2>Reserve Your Table</h2>
+
+            <p>
+                Planning a family dinner, a date, or a special celebration?
+                Book your table and let us make your visit memorable.
+            </p>
+
+            <div class="opening-hours">
+                <h3>Opening Hours</h3>
+                <p>Monday – Friday: 10:00 AM – 10:00 PM</p>
+                <p>Saturday – Sunday: 9:00 AM – 11:00 PM</p>
+            </div>
+
+            <div class="location">
+                <h3>Our Location</h3>
+                <p>Golden Spoon Restaurant & Cafe</p>
+                <p>Main Road, Vijayawada, Andhra Pradesh, India</p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Email: goldenspoon@example.com</p>
+            </div>
+        </div>
+
+        <form class="reservation-form" action="#" method="get">
+
+            <h3>Book a Table</h3>
+
+            <label for="name">Your Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required>
+
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required>
+
+            <label for="phone">Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                required>
+
+            <label for="date">Reservation Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Reservation Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Number of Guests</label>
+            <select id="guests" name="guests" required>
+                <option value="">Select guests</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6">6 People</option>
+                <option value="7+">7 or More People</option>
+            </select>
+
+            <label for="message">Special Requests</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Any special requests?"></textarea>
+
+            <button type="submit" class="btn submit-btn">
+                Reserve Now
+            </button>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>🍴 Golden Spoon</h2>
+
+        <p>Good Food. Great Moments.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#chefs">Our Chefs</a>
+            <a href="#reservation">Reservations</a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Golden Spoon Restaurant & Cafe.
+            All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #fffaf3;
+    color: #29221c;
+    line-height: 1.7;
+}
+
+:root {
+    --gold: #c89b3c;
+    --dark: #211a16;
+    --cream: #fffaf3;
+    --text: #62584e;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 8%;
+}
+
+.subtitle {
+    color: var(--gold);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--text);
+}
+
+/* Navigation Bar */
+header {
+    background-color: var(--dark);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    min-height: 75px;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--gold);
+    font-size: 27px;
+    white-space: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--gold);
+}
+
+.nav-links .nav-btn {
+    background-color: var(--gold);
+    color: var(--dark);
+    padding: 10px 17px;
+    border-radius: 4px;
+}
+
+.nav-links .nav-btn:hover {
+    background-color: white;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(25, 19, 15, 0.9),
+            rgba(25, 19, 15, 0.35)
+        ),
+        url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85");
+
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.hero-content {
+    max-width: 650px;
+    animation: fadeUp 1s ease;
+}
+
+.hero h2 {
+    font-size: clamp(42px, 6vw, 68px);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-content > p:not(.subtitle) {
+    color: #f4eee7;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--gold);
+    color: var(--dark);
+    padding: 13px 24px;
+    margin: 5px 8px 5px 0;
+    border: 2px solid var(--gold);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--gold);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.btn-outline:hover {
+    background-color: white;
+    color: var(--dark);
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    background-color: white;
+}
+
+.about-image,
+.about-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.about-image img {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+/* Section Heading */
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 45px;
+}
+
+.section-heading p:not(.subtitle) {
+    margin-top: 10px;
+}
+
+/* Menu Section */
+.menu-section {
+    background-color: var(--cream);
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.menu-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.menu-card img {
+    height: 220px;
+    transition: transform 0.4s;
+}
+
+.menu-card:hover img {
+    transform: scale(1.04);
+}
+
+.menu-info {
+    padding: 22px;
+}
+
+.menu-info h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.menu-info p {
+    margin-bottom: 15px;
+}
+
+.menu-info span {
+    color: var(--gold);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Chefs Section */
+.chefs-section {
+    background-color: white;
+}
+
+.chef-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.chef-card {
+    background-color: var(--cream);
+    text-align: center;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.chef-card:hover {
+    transform: translateY(-8px);
+}
+
+.chef-card img {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.chef-card h3 {
+    font-size: 24px;
+}
+
+.chef-card p {
+    padding: 0 18px;
+}
+
+.chef-card p:nth-of-type(1) {
+    color: var(--gold);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Restaurant Gallery */
+.ambience-section {
+    background-color: var(--cream);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery img {
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: white;
+}
+
+.testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.testimonial-card {
+    padding: 30px;
+    background-color: var(--cream);
+    border-radius: 8px;
+    border-bottom: 4px solid var(--gold);
+}
+
+.stars {
+    color: var(--gold);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial-card h3 {
+    font-size: 18px;
+}
+
+/* Reservation Section */
+.reservation-section {
+    background-color: var(--dark);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.reservation-info h2 {
+    color: white;
+}
+
+.reservation-info > p:not(.subtitle) {
+    color: #d1c6bc;
+    margin-bottom: 30px;
+}
+
+.opening-hours,
+.location {
+    margin-top: 30px;
+}
+
+.opening-hours h3,
+.location h3 {
+    color: var(--gold);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.opening-hours p,
+.location p {
+    color: #e4dcd4;
+    margin-bottom: 8px;
+}
+
+.reservation-form {
+    background-color: white;
+    color: var(--dark);
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.reservation-form h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.reservation-form label {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 5px;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: #fffdf9;
+}
+
+.reservation-form input:focus,
+.reservation-form select:focus,
+.reservation-form textarea:focus {
+    outline: 2px solid var(--gold);
+    border-color: var(--gold);
+}
+
+.reservation-form textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #17110e;
+    color: white;
+    text-align: center;
+    padding: 40px 8% 20px;
+}
+
+footer h2 {
+    color: var(--gold);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    color: #cfc4ba;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: var(--gold);
+}
+
+.copyright {
+    border-top: 1px solid #453a32;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tablet Responsive Design */
+@media (max-width: 1000px) {
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    .nav-links {
+        gap: 13px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    section {
+        padding: 65px 5%;
+    }
+
+    .menu-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about {
+        gap: 30px;
+    }
+
+    .reservation-section {
+        gap: 30px;
+    }
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+    .nav-links .nav-btn {
+        margin-top: 5px;
+    }
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero h2 {
+        font-size: 45px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-image,
+    .about-content {
+        width: 100%;
+    }
+
+    .about-image img {
+        height: 300px;
+    }
+
+    .menu-container,
+    .chef-container,
+    .gallery,
+    .testimonial-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .chef-card img,
+    .gallery img {
+        height: 230px;
+    }
+
+    .reservation-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+    section {
+        padding: 50px 6%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .hero {
+        min-height: 480px;
+    }
+
+    .hero h2 {
+        font-size: 38px;
+    }
+
+    .hero-content > p:not(.subtitle) {
+        font-size: 16px;
+    }
+
+    .menu-container,
+    .chef-container,
+    .gallery,
+    .testimonial-container {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-card img {
+        height: 230px;
+    }
+
+    .chef-card img,
+    .gallery img {
+        height: 260px;
+    }
+
+    .reservation-form {
+        padding: 22px;
+    }
+
+    .footer-links {
+        gap: 15px;
+    }
+}
